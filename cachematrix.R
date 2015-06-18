@@ -1,5 +1,5 @@
-  ## below functions calculate the inverse of matrix and store it in cache using
-  ## cacheSolve function which uses a vector returned from makeCacheMatrix
+  ## below functions calculate the inverse of matrix and store it using
+  ## cacheSolve function which uses a vector returned from makeCacheMatrix function
   
   
   
@@ -21,7 +21,7 @@
          getinv = getinv )
   }
   ## cacheSolve functions checks whether the matrix input is new or not and if it
-  ## is old retieves the inverse from the memory or else computes the new inverse 
+  ## is old retrieves the inverse from the memory or else computes the new inverse 
   ## of the input matrix
   
   cacheSolve <- function(x, ...) {
