@@ -1,4 +1,4 @@
-  ## below functiona calculate the inverse of matrix and store it in cache using
+  ## below functions calculate the inverse of matrix and store it in cache using
   ## cacheSolve function which uses a vector returned from makeCacheMatrix
   
   
@@ -34,6 +34,6 @@
     i <- solve(data, ...)
     x$setinv(i)
     i  
-    ##  Return a matrix  that is the inverse of 'x'
+    ##  Return a matrix that is the inverse of 'x'
   }
   
